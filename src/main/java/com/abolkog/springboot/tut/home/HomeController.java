@@ -15,7 +15,7 @@ public class HomeController {
 
     @RequestMapping(value = "/")
     public String greeting() {
-        return "Hello, Welcome to SpringBoot!!";
+        return "Hi, Welcome to SpringBoot!!";
     }
 
     @GetMapping(value = "/{name}")
